@@ -1,0 +1,165 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #884507ef;
+    line-height: 1.6;
+}
+#showcase{
+    background-image: url(/picture/image\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+#showcase h1{
+    font-size: 50px;
+    line-height: 1.2;
+}
+#showcase p{
+    font-size: 20px;
+    font-weight:bold;
+}
+#showcase .button{
+    font-size: 18px;
+    text-decoration: none;
+    color:#884507ef; 
+    border:#884507ef 1px solid;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+#showcase .button:hover{
+    background-color:#884507ef ;
+    color: white;
+}
+#section-a{
+    padding: 20px;
+    background-color:#884507ef ;
+    color: white;
+}
+#section-b{
+    padding: 20px;
+    background-color:#884507ef ;
+    color: white;
+}
+#adv{
+    padding: 20px;
+    text-align: center;
+    /* background-color: #884507ef; */
+    color:#884507ef;
+    margin: 10px;
+  
+    
+}
+#section-c{
+    display: flex;
+
+}
+#section-c div{
+    padding: 20px;
+}
+#section-c .box1{
+    background-color: #884507ef;
+    color: white;
+
+}
+#are{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+#img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    
+}
+#img1{
+    background: url(/pictures/6.jpg)no-repeat center center/cover;
+    height: 50vh;
+    width: 30%;
+    margin: 20px;
+    border-radius:10px;
+}
+#img2{
+    background: url(/pictures/maxima3.jpeg)no-repeat center center/cover;
+    height: 50vh;
+    width: 30%;
+    margin: 20px;
+    border-radius:10px;
+}
+#img3{
+    background: url(/pictures/maxima2.jpeg)no-repeat center center/cover;
+    height: 50vh;
+    width: 30%;
+    margin: 20px;
+    border-radius:10px;
+}
+/* second image section */
+#imgb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    
+}
+#img11{
+    background: url(/pictures/4.jpg)no-repeat center center/cover;
+    height: 50vh;
+    width: 30%;
+    margin: 20px;
+    border-radius:10px;
+}
+#img22{
+    background: url(/pictures/5.jpg)no-repeat center center/cover;
+    height: 50vh;
+    width: 30%;
+    margin: 20px;
+    border-radius:10px;
+}
+#img33{
+    background: url(/pictures/maxima.jpg)no-repeat center center/cover;
+    height: 50vh;
+    width: 30%;
+    margin: 20px;
+    border-radius:10px;
+}
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f1b57cef;
+    color: black;
+}
+
+@media screen and (max-width:768px) {
+    #img {
+      flex-direction: column;
+
+    }
+    #section-c{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
